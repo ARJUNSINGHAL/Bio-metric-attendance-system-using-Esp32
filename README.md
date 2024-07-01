@@ -1,2 +1,2 @@
-# Bio-metric-attendance-system-using-Esp32
-In this project IoT Biometric Project, we will learn how to build IoT based Biometric Fingerprint Attendance System using , 0.96” OLED Display &amp; R305 Fingerprint Sensor. The ESP8266 Wi-Fi Module will collect the fingerprint data from multiple users and send it over the internet to a website.
+The connections are pretty simple. Connect the VCC and GND pins of FR307, OLED display, and RTC module to the 3.3V pin and GND pins respectively. Then connect the SDA and SCL pins of the RTC module and the OLED display to the GPIO21 and GPIO22 respectively. Now connect the TX pin from the FR307 to GPIO16 and the RX pin to the GPIO17.
+
